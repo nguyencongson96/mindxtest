@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai kiem tra</title>
+  </head>
+  <body>
+    <!-- Bài 2 -->
+    <div class="container" style="margin: 20px">
+      <div class="header">Bai 2</div>
+      <label for="Number">Nhập số để tạo hình tam giác </label>
+      <input type="number" id="Number" />
+      <br />
+      <button id="draw">Draw</button>
+      <br />
+    </div>
+
+    <script>
+      let Num = document.getElementById("Number");
+      let btnDraw = document.getElementById("draw");
+
+      btnDraw.onclick = () => {
+        document.write("Kết quả: ");
+        document.write("<br>");
+        for (let i = 1; i <= Num.value; i += 1) {
+          for (let j = 1; j <= i; j += 1) {
+            document.write("*");
+          }
+          document.write("<br>");
+        }
+      };
+    </script>
+    <!-- Kết thúc bài 2 -->
+  </body>
+</html>
