@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #bfc8e5;
+  font-family: "poppins";
+}
+
+.container {
+  padding: 100px;
+  border: 2px solid orange;
+  margin: 173px 194px 197px 193px;
+  background-color: #fbfcff;
+}
+.container .header h3 {
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 15px;
+  font-family: "Merriweather";
+  font-weight: 900;
+}
+
+.container .header .menu input {
+  width: 413px;
+  height: 100%;
+  padding-left: 40px;
+  border-radius: 6px;
+}
+
+.container .header .menu .search {
+  position: relative;
+  border: none;
+}
+.container .header .menu .search svg {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 15%;
+  left: 3%;
+}
+
+.container .header .menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.container .header .menu ul {
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+  list-style-type: none;
+  justify-items: center;
+}
+
+.container .header .menu ul li {
+  padding: 10px;
+}
+.container .header .menu ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+}
+
+.container .header .menu ul li a:hover {
+  background-color: lightskyblue;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.image {
+  object-fit: cover;
+  width: 97px;
+  height: 97px;
+  top: 27px;
+  left: 27px;
+  border-radius: 50%;
+}
+.User {
+  height: 208px;
+  width: calc(100% / 3 - 16px);
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 16px 16px 0px 0px;
+}
+
+.User:hover {
+  border: 1px solid #bfc8e5;
+  box-shadow: 2px 8px 23px rgba(218, 224, 249, 0.7);
+}
+.information-customer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.image_user {
+  margin-right: 20px;
+}
+
+.more_info_user {
+  color: #516fd4;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  line-height: 15px;
+}
+
+.item {
+  border: 1px solid #bfc8e6;
+  border-radius: 10px;
+  margin-right: 6px;
+  padding: 2px 8px;
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+
+.address {
+  position: relative;
+  bottom: 20px;
+}
+
+.name_user {
+  font-family: "Merriweather";
+  line-height: 3;
+}
+
+.more_info_user_2 {
+  color: #516fd4;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  line-height: 15px;
+}
